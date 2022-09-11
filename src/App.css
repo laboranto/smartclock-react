@@ -1,11 +1,12 @@
-*{
-background-color:#fff;
+body{
+background-color:#ffffff;
 color:#2f2f2f;
 font-family: 'Noto Sans KR','Apple Gothic SD',sans-serif;
+transition-duration:0.2s;
 }
 
 @media (prefers-color-scheme: dark){
-  *{
+  body{
     background-color:#2f2f2f;
     color:#ffffff;
   }
@@ -15,7 +16,7 @@ font-family: 'Noto Sans KR','Apple Gothic SD',sans-serif;
   text-align:center;
   position:relative;
   width:100%;
-  transition-duration:0.2s;
+
   font-weight:bold;
   margin:0;
 }
@@ -25,6 +26,18 @@ font-family: 'Noto Sans KR','Apple Gothic SD',sans-serif;
   padding:1rem 0;
   margin:0;
   font-size:1.25rem;
+}
+
+.sky-icon{
+position:absolute;
+left:50%; top:25%;
+transform:translate(-50%,-50%);
+width:40%; max-width:200px;
+background:none;
+}
+.sky-icon img{
+position:relative;
+width:100%; height:auto;
 }
 
 .clock{
@@ -43,5 +56,33 @@ margin:0;
   margin:0;
 }
 .clock p{
+  text-align:justify;
+  width:50%; max-width:250px;
+  margin:0 auto;
+  font-size:1.25rem;
+}
+
+.newsWrap{
+  margin:475px auto; position:relative;
+  width:50%; max-width:300px;
+}
+
+.news{
+  text-align:justify;
+  border-radius:0.5rem;
+  border-color:#909090;
+  border-style:solid;
+  border-width: 1px;
+  padding:1rem;
+  
+}
+
+.news h3, .news p{
+  margin:0;
+}
+.news h3{
+
+}
+.news p{
 
 }
