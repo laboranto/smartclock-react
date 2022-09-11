@@ -74,15 +74,21 @@ margin:0;
   border-style:solid;
   border-width: 1px;
   padding:1rem;
-  
 }
 
-.news h3, .news p{
+.news h3, .news h5, .news p{
   margin:0;
 }
 .news h3{
 
 }
+.news h5{
+  text-align:right;
+  font-weight:normal;
+  color:#999999;
+}
 .news p{
-
+border-top:solid 1px #aaaaaa;
+margin-top:10px; padding-top:10px;
+line-height:2rem;
 }

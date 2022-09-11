@@ -46,11 +46,16 @@ function App() {
 }
 
 function NewsCast(){
+const getNews = () => {
+
+}
+
 return(
   <div className="newsWrap">
     <div className="news">
-    <h3>헤드라인</h3>
-    <p>내용</p>
+    <h3>기사 제목</h3>
+    <h5>2022-09-11</h5>
+    <p>내용러이마ㅓ린ㅇ머ㅏㅣ라ㅣㅇㄴ머ㅣㅏㄹ하이너라ㅣㅇㅁ너ㅏㅣㅣㅓㅁ라ㅓㅁ리ㅏㅓㅇㅁ너ㅣㅏㅁ이ㅏㅓㅁㄹ너ㅣㅏㄹ니ㅓㅏ이ㅏㅓ나ㅓㅣㅁ너ㅏ</p>
     </div>
   </div>
 )
